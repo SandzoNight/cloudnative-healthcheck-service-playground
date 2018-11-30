@@ -48,12 +48,6 @@ class App extends Component {
           url: config.AUTHENTICATION_SERVICE,
           status: undefined,
           cpu: undefined
-        },
-        {
-          name: 'Frontend Service',
-          url: config.FRONTEND_SERVICE,
-          status: undefined,
-          cpu: undefined
         }
       ]
     }
