@@ -37,18 +37,18 @@ class App extends Component {
           status: undefined,
           cpu: undefined
         },
-        {
-          name: 'Subject Service',
-          url: config.SUBJECT_SERVICE,
-          status: undefined,
-          cpu: undefined
-        },
-        {
-          name: 'Authentication Service',
-          url: config.AUTHENTICATION_SERVICE,
-          status: undefined,
-          cpu: undefined
-        }
+        // {
+        //   name: 'Subject Service',
+        //   url: config.SUBJECT_SERVICE,
+        //   status: undefined,
+        //   cpu: undefined
+        // },
+        // {
+        //   name: 'Authentication Service',
+        //   url: config.AUTHENTICATION_SERVICE,
+        //   status: undefined,
+        //   cpu: undefined
+        // }
       ]
     }
   }
