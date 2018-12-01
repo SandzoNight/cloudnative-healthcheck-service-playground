@@ -67,7 +67,6 @@ class App extends Component {
         }
         const {data: cpu} = await axios.get(service.url+'/metrics/process.cpu.usage')
         service.cpu = cpu.measurements[0].value
-        console.log(cpu)
       }catch(err){
         console.log(err)
         service.status = 'DOWN'
